@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(softmax_algorithm)
+add_executable(navie navie.cpp)
+add_executable(safe safe.cpp)
+add_executable(online online.cpp)
